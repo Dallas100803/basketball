@@ -12,6 +12,13 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
     border: 0;
 }
 
+body {
+  background: linear-gradient(to right, #ffA500, #2c3e50); /* Replace these color codes with your desired gradient colors */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
 /* Style rule for images */
 img {
   max-width: 100%;
@@ -27,7 +34,7 @@ aside {
   font-size: 1.5em;
   font-weight: bold;
   color: #0982cb;
-  text-shadow: 3px 3px 10px #2160cb;
+  text-shadow: 3px 3px 10px #ffA500;
 }
 /* Style rules for mobile viewport */
 figure {
@@ -77,20 +84,24 @@ form #submit {
 /* Style rules for header content */
 header {
     text-align: center;
-    font-size: 1.5em;
-    color: #2160cb;
+    font-style: italic;
+    font-size: 2.0em;
+    color: #000;
 }
  
-header h1 {
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.5em;
-    padding: 4%;
-    margin-right: 15%;   
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
 }
-
+h2 {
+    text-align: center; /* Center the h2 element */
+    font-size: 1.5em;
+}
 /* Style rules for navigation area */
 nav {
-    background-color: #2160cb;
+    background: linear-gradient(to right, #ffA500, #2c3e50);
 }
  
 .mobile-nav a {
@@ -112,12 +123,12 @@ nav {
 .menu-icon div {
     height: 50px;
     width: 50px;
-    background-color: #2160cb;
+    background-color: #ffA500;
 }
 /* Style rules for main content */
 main {
     padding: 2%;
-    background-color: #e5e9fc;
+    background: linear-gradient(to right, #ffA500, #2c3e50);
     overflow: auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -128,7 +139,7 @@ main p {
  
 .action {
     font-size: 1.25em;
-    color: #2160cb; 
+    color: #ffA500; 
     font-weight: bold;
 }    
 
@@ -139,7 +150,7 @@ main p {
  
 #info {
     clear: left;
-    background-color: #0982cb;
+    background-color: #ffA500;
     padding: 1% 2%;
 }
 
@@ -172,20 +183,20 @@ main p {
 }
 
 #contact .email-link {
-    color: #0982cb;
+    color: #ffA500;
     text-decoration: none;
     font-weight: bold;
 }
  
 .map {
-    border: 5px solid #2160cb;
+    border: 5px solid #ffA500;
     width: 95; 
     height: 50;
 }
 
 /* Style rules for table elements */
 table {
-    border: 1px solid #2160cb;
+    border: 1px solid #ffA500;
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
@@ -198,18 +209,18 @@ caption {
 }
  
 th, td {
-    border: 1px solid #2160cb;
+    border: 1px solid #ffA500;
     padding: 2%; 
 }
  
 th {
-    background-color: #2160cb;
+    background-color: #ffA500;
     color: #fff;
     font-size: 1.15em;
 }
  
 tr:nth-child(odd) {
-    background-color: #0982cb;  
+    background-color: #ffA500;  
 }
 
 /* Style rules for footer content */
@@ -220,7 +231,7 @@ footer {
 }
  
 footer a {
-    color: #0982cb;
+    color: #ffA500;
     text-decoration: none;
 }
 
